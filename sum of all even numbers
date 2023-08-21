@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int i,num,even,sum=0;
+printf("enter the value of num");
+scanf("%d",&num);
+for(i=1;i<=num;i++)
+{
+if(i%2==0)
+even_sum+=i;
+}
+printf("sum of all even numbers =%d",even_sum);
+return 0;
+}
