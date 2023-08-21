@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+int i,n,r,sum=0;
+printf("enyter the number");
+scanf("%d",&n);
+for (i=1'i<n;i++)
+{
+r=n%i;
+if(r==0)
+{
+sum=sum+i;
+}
+}
+if (sum==n)
+printf("is a perfect number");
+else
+printf("is not a perfect number")
+}
