@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+int i,n,m,r,s=0;
+printf("enter the number");
+scanf("%d",&n);
+m=n;
+{
+r=n%10;
+s=s+(r*r*r);
+n=n/10;
+}
+if(m==s)
+printf("amstrong  number");
+else
+printf("not amstrong number");
